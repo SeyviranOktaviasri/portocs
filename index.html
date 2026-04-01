@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Simulation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="login-card">
+            <h2>Sign In With</h2>
+            
+            <div class="social-login">
+                <button class="social-btn facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span>Facebook</span>
+                </button>
+                <button class="social-btn google">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo" class="google-icon">
+                    <span>Google</span>
+                </button>
+            </div>
+            
+            <form action="#" method="POST" onsubmit="event.preventDefault();">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                
+                <div class="input-group">
+                    <div class="label-with-link">
+                        <label for="password">Password</label>
+                        <a href="#" class="forgot-link">Forgot?</a>
+                    </div>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <button type="submit" class="sign-in-btn">Sign In</button>
+            </form>
+            
+            <div class="signup-link">
+                Not a member? <a href="#">Sign up now</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="warning-footer">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <span>PERINGATAN: Halaman ini adalah simulasi edukasi keamanan cyber, perhatikan url sebelum memasukan data sensitive.</span>
+    </div>
+</body>
+</html>
